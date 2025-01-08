@@ -5,4 +5,5 @@
 @foreach ($jobs as $job)
 	<li>{{ $job['title'] }}</li>
 
+@endforeach
 </x-layout>

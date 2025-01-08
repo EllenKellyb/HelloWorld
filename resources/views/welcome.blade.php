@@ -1,6 +1,6 @@
 <x-layout>
   <x-slot:heading>
-  Home Page
+  Home Page for GitHub Pages
   </x-slot:heading>
 @foreach ($jobs as $job)
 	<li>{{ $job['title'] }}</li>
